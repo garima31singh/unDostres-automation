@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UnDoscTres automation Suite">
+    <test verbose="2" preserve-order="true" name="/Users/garimasingh/Downloads/UnDosTres/src/test/java/org/undostres/sript">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="org.undostres.sript.rechargeMobile">
+                <methods>
+    <include name="testRechargeMobileFlow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
